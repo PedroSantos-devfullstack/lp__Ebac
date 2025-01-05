@@ -1,0 +1,25 @@
+@use "config/variaveis";
+
+header {
+    width: 100%;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        width: 110px;
+        height: 50px;
+
+        margin-top: 10px;
+        margin-right: 50px;
+        font-size: 18px;
+        cursor: pointer;
+
+        border: 1px solid variaveis.$textColor;
+        border-radius: 4px;
+
+        background-color: variaveis.$corPrincipal;
+        color: variaveis.$textColor;
+    }
+}

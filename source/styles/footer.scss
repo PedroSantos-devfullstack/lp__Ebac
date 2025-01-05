@@ -1,0 +1,42 @@
+@use "config/variaveis";
+
+footer {
+    background-color: variaveis.$corSecundaria;
+    color: variaveis.$textColor;
+
+    .topicos {
+        display: flex;
+        justify-content: center;
+
+        gap: 50px;
+
+        h1 {
+            font-size: 19px;
+        }
+
+        p {
+            margin: 20px 0;
+            cursor: pointer;
+        }
+    }
+    
+    .empresas {
+        display: flex;
+        justify-content: center;
+
+        gap: 80px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .img {
+        text-align: center;
+    }
+
+    .copy {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+}

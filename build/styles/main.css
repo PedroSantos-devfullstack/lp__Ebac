@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+header button {
+  width: 110px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: rgb(6, 6, 32);
+  color: white;
+}
+
+.primeiraSessao {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.primeiraSessao .slickCarousel {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.primeiraSessao .slickCarousel .slick-slide img {
+  width: 100%;
+  height: 100vh;
+}
+.primeiraSessao .hero {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  color: white;
+}
+.primeiraSessao .hero a {
+  color: white;
+}
+.primeiraSessao .hero p {
+  margin: 20px 0;
+  color: rgb(207, 205, 205);
+}
+.primeiraSessao .hero h2 {
+  color: aqua;
+}
+.primeiraSessao .hero h1 {
+  margin: 35px 0;
+}
+.primeiraSessao .hero .planosButtons {
+  display: flex;
+  gap: 22px;
+}
+.primeiraSessao .hero .planosButtons button {
+  width: 100%;
+  height: 60px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.primeiraSessao .hero .planosButtons button:hover {
+  background-color: rgb(2, 206, 206);
+}
+
+footer {
+  background-color: rgb(10, 10, 20);
+  color: white;
+}
+footer .topicos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+footer .topicos h1 {
+  font-size: 19px;
+}
+footer .topicos p {
+  margin: 20px 0;
+  cursor: pointer;
+}
+footer .empresas {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+footer .img {
+  text-align: center;
+}
+footer .copy {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */

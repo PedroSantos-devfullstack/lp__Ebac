@@ -1,0 +1,62 @@
+@use "config/variaveis";
+
+.primeiraSessao {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    .slickCarousel {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;       
+
+        .slick-slide img {
+            width: 100%;
+            height: 100vh;
+        }
+    }
+
+    .hero {
+        width: 40%;
+        position: absolute;
+        top: 15%; 
+        left: 7%;
+
+        color: variaveis.$textColor;
+
+        a {
+            color: variaveis.$textColor;
+        }
+
+        p {
+            margin: 20px 0;
+            color: variaveis.$textColor2;
+        }
+
+        h2 {
+            color: variaveis.$etcColors;
+        }
+
+        h1 {
+            margin: 35px 0;
+        }
+        .planosButtons {
+            display: flex;
+            gap: 22px;
+
+            button {
+                width: 100%;
+                height: 60px;
+                background-color: variaveis.$etcColors;
+                border: none;
+                cursor: pointer;
+                border-radius: 4px;
+
+                &:hover {
+                    background-color: variaveis.$etcColors2;
+                }
+            }
+        }
+    }
+}
